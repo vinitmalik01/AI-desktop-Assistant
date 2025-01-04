@@ -6,7 +6,7 @@ import wikipedia
 import random
 import requests
 import webbrowser
-
+#YOU'VE TO CHANGE THE USER PROFILE OF WINDOWS, AND ADD APIKEY FROM WEATHERAPI.
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[0].id)
